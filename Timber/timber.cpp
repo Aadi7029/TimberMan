@@ -22,7 +22,7 @@ int main(){
 	window.setView(view);
 	//add background 
 	Texture textureBackground;
-	textureBackground.loadFromFile("Graphics/win.png");
+	textureBackground.loadFromFile("Graphics/background12.png");
 	
 	Sprite spriteBackground;
 	spriteBackground.setTexture(textureBackground);
@@ -65,7 +65,7 @@ int main(){
 	
 	//add clouds(1,2,3)
 	Texture textureCloud;
-	textureCloud.loadFromFile("Graphics/cld.png");
+	textureCloud.loadFromFile("Graphics/cloud.png");
 	
 	Sprite spriteCloud1;
 	Sprite spriteCloud2;
@@ -145,7 +145,7 @@ int main(){
 		}
 	//Set Player texture
 	Texture texturePlayer;
-	texturePlayer.loadFromFile("Graphics/image.png");
+	texturePlayer.loadFromFile("Graphics/player.png");
 	Sprite spritePlayer;
 	spritePlayer.setTexture(texturePlayer);
 	spritePlayer.setPosition(580,720);
